@@ -1,74 +1,33 @@
-# Yelpcamp 🏕️
+📝 Yelpcamp
 
-_A Full-Stack CRUD App Built with Node.js, Express, and MongoDB_
+A full-stack web application inspired by Yelp, Yelpcamp is a CRUD platform that allows users to post, edit, and review campsites — complete with location and map integration.
 
----
+📝 About the Project
 
-## 📘 Overview
+This application provides core CRUD functionality for managing campsite listings. Each listing includes details such as location, description, and user reviews. Key features include:
 
-Yelpcamp is a full-stack web application built during my full-stack developer program. It allows users to share and review campground locations around the world — similar to Yelp, but focused on outdoor adventures. The app supports full CRUD functionality, user authentication, authorization, interactive maps, and image uploads.
+- Full authentication system using Passport.js for login and user sessions.
+- Integration with Mapbox to geocode locations and display interactive maps.
+- Dynamic campground pages with review submission and management.
+- A responsive and user-friendly interface built with care and consistency.
 
----
+⚙️ Technologies & Libraries Used
 
-### App Screenshots :
+- Express.js
+- MongoDB (Mongoose)
+- Mapbox (for geolocation and maps)
+- Passport.js (for authentication)
+- EJS templating engine
+- Node.js
+- Cloudinary (for image hosting)
+- Multer (for image uploads)
+- Method-override, Express-session, Connect-flash, etc.
 
-1. Home page.
+💼 School Project
 
-![Home-page](readme-images/home.png)
+This was a school project that helped me solidify full-stack fundamentals, including RESTful routing, middleware usage, and third-party integrations for a more dynamic user experience.
 
-2. Registration page
+🔗 Live App: [Yelpcamp](https://yelpcamp-murex-ten.vercel.app/home)  
+🔗 GitHub Repository: [https://github.com/Manuelhhinojosa/yelpcamp](https://github.com/Manuelhhinojosa/yelpcamp)
 
-![Registration-page](readme-images/registration.png)
-
-3. Login page
-
-![Login-page](readme-images/login.png)
-
-4. All posts page
-
-![All-posts-page](readme-images/all-camp.png)
-
-5. One post page
-
-![One-post-](readme-images/one-camp.png)
-
-6. Edit campground page
-
-![Edit-campground](readme-images/edit-camp.png)
-
-7. New campground page
-
-![Edit-post-page](readme-images/new-camp.png)
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend:** HTML, CSS, JavaScript, Bootstrap
-- **Backend:** Node.js, Express
-- **Database:** MongoDB with Mongoose
-- **Features:**
-  - Full CRUD functionality
-  - RESTful routing
-  - User registration & login (authentication)
-  - Role-based access (authorization)
-  - Image/file upload with Multer & Cloudinary
-  - Interactive maps with Mapbox
-  - Flash messaging & error handling
-
----
-
-## 🚀 Getting Started
-
-You can try out the live version of the app [here](https://yelpcamp-murex-ten.vercel.app/home)
-
----
-
-## 📚 What I Learned
-
-This was one of the first full-stack applications I built during my full-stack web development program. It helped solidify my understanding of:
-RESTful API design
-Server-side routing and middleware
-MongoDB and schema design with Mongoose
-User auth with Passport.js
-Working with third-party APIs and services
+Made with ❤️ by [Manuel H Hinojosa](https://manuelhinojosa.netlify.app).
