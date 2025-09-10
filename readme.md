@@ -28,6 +28,6 @@ This application provides core CRUD functionality for managing campsite listings
 This was a school project that helped me solidify full-stack fundamentals, including RESTful routing, middleware usage, and third-party integrations for a more dynamic user experience.
 
 🔗 Live App: [Yelpcamp](https://yelpcamp-murex-ten.vercel.app/home)  
-🔗 GitHub Repository: [https://github.com/Manuelhhinojosa/yelpcamp](https://github.com/Manuelhhinojosa/yelpcamp)
+
 
 Made with ❤️ by [Manuel H Hinojosa](https://manuelhinojosa.netlify.app).
